@@ -32,15 +32,15 @@ function Start10Min(){
     document.getElementById("gamer2Time").innerHTML = "10:00";
 }
 
-function Start30Min(){
+function Start8Min(){
     hide("mainMenu");
     show("timer");
     show("backButton")
-    time1 = 1800;
-    time2 = 1800;
-    document.getElementById("timerTitle").innerHTML = "30 Minute Rounds";
-    document.getElementById("gamer1Time").innerHTML = "30:00";
-    document.getElementById("gamer2Time").innerHTML = "30:00";
+    time1 = 480;
+    time2 = 480;
+    document.getElementById("timerTitle").innerHTML = "8 Minute Rounds";
+    document.getElementById("gamer1Time").innerHTML = "8:00";
+    document.getElementById("gamer2Time").innerHTML = "8:00";
 }
 
 
